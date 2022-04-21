@@ -122,6 +122,11 @@ img {
 }
 .header-contacts-link:last-child {
   margin-left: 50px;
+  
+}
+.header-icons {
+  margin-right: 10px;
+  fill: currentColor;
 }
 .header-contacts {
   margin-left: auto;
@@ -153,11 +158,14 @@ img {
 }
 .header-contacts-link {
   color: var(--main-text-color);
+  display: flex;
+  align-items: center;
 }
 .header-contacts-link:hover,
 .header-contacts-link:focus {
   color: var(--accent-color);
 }
+
 /* ---------------------HERO--------------------- */
 .section-hero {
   padding-top: 200px;
