@@ -340,7 +340,7 @@ img {
 }
 /* ---------------------CLIENTS--------------------- */
 /* .client-icons {
-  fill:currentColor;
+  padding: 16px 32px;
 } */
 .client-list {
   display: flex;
@@ -360,6 +360,7 @@ img {
   width: 170px;
   height: 92px;
   fill: #afb1b8;
+  padding: 16px 32px;
 }
 .client-item:hover {
   border-color: var(--accent-color);
